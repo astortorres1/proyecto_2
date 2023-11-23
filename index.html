@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simulador de Interés Compuesto</title>
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+
+<div class="simulador">
+    <h1>Simulador de Interés Compuesto</h1>
+    <label for="principal">Capital Principal:</label>
+    <input type="number" id="principal" placeholder="Ingrese el capital principal">
+    <br>
+    <label for="tasa">Tasa de Interés (anual):</label>
+    <input type="number" id="tasa" placeholder="Ingrese la tasa de interés">
+    <br>
+    <label for="periodos">Número de Periodos:</label>
+    <input type="number" id="periodos" placeholder="Ingrese el número de periodos">
+
+    <button onclick="calcularInteres()">Calcular Interés</button>
+    <button onclick="resetearFormulario()">Resetear</button>
+
+    <p class="resultado"></p>
+</div>
+
+<script src="./js/main.js"></script>
+
+</body>
+</html>

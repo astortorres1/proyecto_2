@@ -1,0 +1,16 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 50px;
+}
+
+.simulador {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+input, button {
+    margin-bottom: 10px;
+    padding: 5px;
+    font-size: 16px;
+}
