@@ -1,5 +1,3 @@
-// main.js
-
 document.addEventListener('DOMContentLoaded', function () {
     // Recuperar datos del almacenamiento local al cargar la página
     cargarDatosGuardados();
